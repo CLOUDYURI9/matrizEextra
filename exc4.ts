@@ -12,9 +12,9 @@ const teclado = require(`prompt-sync`)();
 
 // declarando matriz usando o construtor Array limitando a 4 linhas
 
-let matrizDois: number[][] = new Array(4);
+let matrizDois: number[][] = new Array(3);
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 3; i++) {
     /* Cria um array vazio para preencher a linha correspondente ao i limitando a três linhas */
     matrizDois[i] = new Array(4);
     for (let j = 0; j < 4; j++) {
