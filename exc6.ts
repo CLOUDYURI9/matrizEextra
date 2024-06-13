@@ -15,7 +15,7 @@ for (let i = 0; i < 3; i++) {
         if( numero >= 0 && numero < 10){
             matrizDois[i][j] = numero 
         }
-       else{
+        else{
             console.log(`Insira números somente de 0 a 9`);
             j--
        }   
