@@ -10,7 +10,7 @@ Nome: Yuri Dinato da Silva
 
 const teclado = require(`prompt-sync`)();
 
-// declarando matriz usando o construtor Array limitando a 4 linhas
+// declarando matriz usando o construtor Array limitando a 3 linhas
 
 let matrizDois: number[][] = new Array(3);
 
