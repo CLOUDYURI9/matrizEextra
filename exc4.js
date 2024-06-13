@@ -8,9 +8,9 @@ teste.
 Nome: Yuri Dinato da Silva
 */
 var teclado = require("prompt-sync")();
-// declarando matriz usando o construtor Array limitando a 4 linhas
-var matrizDois = new Array(4);
-for (var i = 0; i < 4; i++) {
+// declarando matriz usando o construtor Array limitando a 3 linhas
+var matrizDois = new Array(3);
+for (var i = 0; i < 3; i++) {
     /* Cria um array vazio para preencher a linha correspondente ao i limitando a três linhas */
     matrizDois[i] = new Array(4);
     for (var j = 0; j < 4; j++) {
