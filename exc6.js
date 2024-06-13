@@ -13,6 +13,10 @@ for (var i = 0; i < 3; i++) {
         if (numero >= 0 && numero < 10) {
             matrizDois[i][j] = numero;
         }
+        else {
+            console.log("Insira n\u00FAmeros somente de 0 a 9");
+            j--;
+        }
     }
 }
 console.log(matrizDois);
